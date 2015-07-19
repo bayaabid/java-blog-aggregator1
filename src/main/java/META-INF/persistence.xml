@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0" xmlns="http://java.sun.com/xml/ns/persistence" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://java.sun.com/xml/ns/persistence
+ http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+	<persistence-unit name="java-blog-aggregotor1">
+		<class>sid.kaischaabane.jpa.entity.User</class>
+		<class>sid.kaischaabane.jpa.entity.Role</class>
+		<class>sid.kaischaabane.jpa.entity.Blog</class>
+		<class>sid.kaischaabane.jpa.entity.Item</class>
+	</persistence-unit>
+</persistence>
